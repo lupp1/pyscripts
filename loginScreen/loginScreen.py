@@ -1,5 +1,5 @@
 # simple login screen
-import shelve, re
+import shelve
 
 # Testing shelve
 emails = []
@@ -20,14 +20,12 @@ def ask_user(message=None):
         pass
 
 def register():
-
     emails.append(user_email)
     passwords.append(user_password)
     users_shelf['email'] = emails
     users_shelf['password'] = passwords
 
-    # Strong password detector.
-
+# Strong password detector.
 def password_strenght(password=None):
     if password == '':
         ask_user('Insert a password.')
