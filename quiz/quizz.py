@@ -1,4 +1,5 @@
 # Quiz game - Automate the Boring Stuff C8
+# Follow along tutorial.
 import random
 
 import random
