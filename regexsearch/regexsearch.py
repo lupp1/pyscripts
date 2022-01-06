@@ -5,7 +5,6 @@
 import os, os.path, re
 
 user_path = input('Enter the path for the folder: ')
-files_list = []
 user_input = input('Insert a pattern: ')
 
 # Opens all .txt files in a folder
