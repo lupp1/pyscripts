@@ -29,6 +29,6 @@ def replace_with(words):
         words = words.replace(key, val)
 
     return words
-
-print('This is your initial sentence:', x)
-print(replace_with(x))
+if '__init__' == '__main__':
+    print('This is your initial sentence:', x)
+    print(replace_with(x))
