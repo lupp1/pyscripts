@@ -5,15 +5,17 @@
 
 import os.path
 
-x = 'The ADJECTIVE puppy walked to the NOUN and then VERB. A nearby NOUN was unaffected by these events.'  
+x = 'The ADJECTIVE puppy walked to the NOUN and then VERB. A nearby noun was unaffected by these events.'  
 
 ADJECTIVE = str(input('Enter an adjective: ')) 
 NOUN = str(input('Enter a noun: '))
 VERB = str(input('Enter a verb: '))
+noun = str(input('Enter a noun: '))
 
 replace_dict = {'ADJECTIVE': ADJECTIVE, 
                 'NOUN': NOUN, 
-                'VERB': VERB}
+                'VERB': VERB,
+                'noun': noun}
 
 def create_write(write_str):
 
@@ -30,6 +32,5 @@ def replace_with(words):
 
     return words
 
-if '__init__' == '__main__':
-    print('This is your initial sentence:', x)
-    print(replace_with(x))
+print(f'This is your initial sentence:\n{x}')
+print(replace_with(x))
