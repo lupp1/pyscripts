@@ -30,6 +30,8 @@ def handle_data():
 
     return data
     
+# Returns data
+
 print(handle_data()['data'])
 
 
