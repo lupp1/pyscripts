@@ -1,3 +1,4 @@
+.idea/workspace.xml
 loginScreen/Users.bak
 loginScreen/Users.dat
 loginScreen/Users.dir
@@ -2178,32 +2179,12 @@ pyscriptsEnv/Lib/site-packages/toml-0.10.2.dist-info/METADATA
 pyscriptsEnv/Lib/site-packages/toml-0.10.2.dist-info/RECORD
 pyscriptsEnv/Lib/site-packages/toml-0.10.2.dist-info/top_level.txt
 pyscriptsEnv/Lib/site-packages/toml-0.10.2.dist-info/WHEEL
+pyscriptsEnv/Scripts/activate
+pyscriptsEnv/Scripts/activate.bat
+pyscriptsEnv/Scripts/Activate.ps1
+pyscriptsEnv/Scripts/deactivate.bat
 pyscriptsEnv/Scripts/pip.exe
 pyscriptsEnv/Scripts/pip3.10.exe
 pyscriptsEnv/Scripts/pip3.exe
 pyscriptsEnv/Scripts/python.exe
 pyscriptsEnv/Scripts/pythonw.exe
-regexsearch/regexsearch.py
-ToDoList/todo.py
-trabalho ripe/exercicio1.py
-trabalho ripe/exercicio2.py
-trabalho ripe/exercicio3.py
-trabalho ripe/exercicio4.py
-trabalho ripe/.idea/.gitignore
-trabalho ripe/.idea/misc.xml
-trabalho ripe/.idea/modules.xml
-trabalho ripe/.idea/trabalho ripe.iml
-trabalho ripe/.idea/inspectionProfiles/profiles_settings.xml
-trabalho ripe/.idea/inspectionProfiles/Project_Default.xml
-loginScreen/Users.bak
-loginScreen/Users.dat
-loginScreen/Users.dir
-pyscriptsEnv/Scripts/activate
-pyscriptsEnv/Scripts/activate.bat
-pyscriptsEnv/Scripts/Activate.ps1
-pyscriptsEnv/Scripts/deactivate.bat
-regexsearch/regexsearch.py
-ToDoList/todo.py
-loginScreen/Users.bak
-loginScreen/Users.dat
-loginScreen/Users.dir
