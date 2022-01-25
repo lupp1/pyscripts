@@ -1,9 +1,11 @@
 # Weather API fetcher - gives data about weather
 
 import requests
+from time import sleep
 
 API_KEY = 'cf5f02151129f98a991a9aeb56447550'
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
+
 
 city = input('Enter a city name: ')
 request_url = f'{BASE_URL}?appid={API_KEY}&q={city}'
@@ -22,3 +24,4 @@ def response():
         print('An error occurred.')
 
 response()
+sleep(10)
