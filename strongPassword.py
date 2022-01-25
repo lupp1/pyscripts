@@ -9,5 +9,4 @@ def strongPassword():
     if mo != None:
         return print('Your password is strong enough.')
     else:
-        return print('Your password isn\'t string enough!')
-strongPassword()
+        return print('Your password isn\'t strong enough!') 

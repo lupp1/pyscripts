@@ -20,6 +20,8 @@ def find_patterns():
                 i += 1
     return print(f'A total of {i} matches were found in {user_path}')
 
+# TODO: Show ocurrency
+
 def regEx():    
     regex = re.compile(r'{}'.format(user_input))
     return regex
